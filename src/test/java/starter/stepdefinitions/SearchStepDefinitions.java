@@ -17,7 +17,7 @@ public class SearchStepDefinitions {
 
     @Given("{actor} is researching things on the internet")
     public void researchingThings(Actor actor) {
-        actor.wasAbleTo(NavigateTo.theWikipediaHomePage());
+        actor.wasAbleTo(NavigateTo.HaledHomePage());
     }
 
     @When("{actor} looks up {string}")
