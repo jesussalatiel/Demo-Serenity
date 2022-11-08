@@ -269,6 +269,11 @@ You use the `environment` system property to determine which environment to run 
 $ mvn clean verify -Denvironment=staging
 ```
 
+You use the `tags` option to run a specific test
+```
+$ mvn clean verify -Denvironment=default -Dtags="@"
+```
+
 See [**this article**](https://johnfergusonsmart.com/environment-specific-configuration-in-serenity-bdd/) for more details about this feature.
 
 ## Want to learn more?
@@ -277,3 +282,4 @@ For more information about Serenity BDD, you can read the [**Serenity BDD Book**
 * **[Byte-sized Serenity BDD](https://www.youtube.com/channel/UCav6-dPEUiLbnu-rgpy7_bw/featured)** - tips and tricks about Serenity BDD
 * For regular posts on agile test automation best practices, join the **[Agile Test Automation Secrets](https://www.linkedin.com/groups/8961597/)** groups on [LinkedIn](https://www.linkedin.com/groups/8961597/) and [Facebook](https://www.facebook.com/groups/agiletestautomation/)
 * [**Serenity BDD Blog**](https://johnfergusonsmart.com/category/serenity-bdd/) - regular articles about Serenity BDD
+* [**Serenity Fundamentals**](https://serenity-bdd.github.io/docs/screenplay/screenplay_fundamentals) - basics to learn serinity and screenplay
